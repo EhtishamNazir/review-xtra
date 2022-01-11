@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ReviewXtra</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!-- font awesome -->
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <!-- main css -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<!-- Reputation Popup -->
+<div id="popup1" class="overlay">
+  <div class="popup">
+    <h2>Build Your Reputation</h2>
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+      <img src="img/build-reputation.png" alt="Buil Reputation" />
+      <p>Share your honest merchant reviews and let your customer know who you really are. Potential customers will more likely do business with you If they trust you.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Add Photo Popup -->
+<div id="popup2" class="overlay">
+  <div class="popup">
+    <h2>Add Photos</h2>
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+      <img src="img/add-photo.png" alt="Buil Reputation" />
+      <p>Your customers will now be able to add pictures of items they are.sharing reviews about. Customers can now do more than just write a review, they can share pictures of what they purchased from the merchant. This increases the authentic levels of the reviews your customers submit and increases sales.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Share Reviews Popup -->
+<div id="popup3" class="overlay">
+  <div class="popup">
+    <h2>Share Reviews</h2>
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+      <img src="img/share-reviews.png" alt="Buil Reputation" />
+      <p>With ReviewXtra, you will able to connect to and contribute to or share our product review database. If you have a store that does not have product reviews, you could potentially pick up product reviews by connecting to our extensive product database which will help your customers make instant decisions about buying products on your store.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Merchant Page Popup -->
+<div id="popup4" class="overlay">
+  <div class="popup">
+    <h2>Merchant Page</h2>
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+      <img src="img/merchant-page.png" alt="Buil Reputation" />
+      <p></p>
+    </div>
+  </div>
+</div>
+
+<!-- Increase Sale Reviews Popup -->
+<div id="popup5" class="overlay">
+  <div class="popup">
+    <h2>Increase Sale</h2>
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+      <img src="img/increase-sale.png" alt="Buil Reputation" />
+      <p>By increasing your merchant trust levels, more customers will be willing to buy from you. Your customers are more likely to be repeat customers and tell their friends about your store if they trust your store. High trust levels means increased sales means more profit for your business.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Reviews on google -->
+<div id="popup6" class="overlay">
+  <div class="popup">
+    <h2>Reviews on Google</h2>
+    <a class="close" href="#">&times;</a>
+    <div class="content">
+      <img src="img/review-on-google.png" alt="Review on Google" />
+      <p>As a merchant on ReviewXtra, your merchant reviews are automatically synced to Google seller reviews database. As a Google partner we are able sync your merchant reviews so that it becomes visible in Google search results.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Header Starts -->
+<header class="header">
+  <div class="container">
+  	<div class="row">
+  		<div class="brand-name">
+  			<a href="index.html" class="logo">
+  				<img src="img/logo.png" alt="Logo" />
+  			</a>
+  		</div>
+  		<div class="ham-burger">
+  			<i class="fa fa-bars"></i>
+  		</div>
+  		<div class="navbar">
+  			<ul>
+  				<li><a href="#" class="active">Features</a></li>
+  				<li><a href="#">Our Partners</a></li>
+  				<li><a href="#">Login</a></li>
+  				<li><a href="#">Signup</a></li>
+  				<li><a href="#"><span class="merchant-btn">Merchant</span></a></li>
+  			</ul>
+  		</div>
+  	</div>
+  	<h1>Review collection &amp;<br /> publishing made <span class="simple-text">simple</span></h1>
+  	<div class="search">
+  		<form class="search-form" action="#" method="POST">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+  	</div>
+  </div>
+</header>
+<!-- Header Ends -->
+
+<!-- Recent Review Start -->
+<section class="recent-reviews">
+  <div class="recent-reviews-head">
+    Recent Reviews
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="review-items">
+        <div class="review-item">
+          <div class="review-stars">
+            <img src="img/good-review.png" alt="Rating" />
+          </div>
+          <div class="review-item-img">
+            <img src="img/microsoft.png" alt="Reviewer Image" />
+          </div>
+          <div class="review-item-text">
+            <h3 class="reviewer-name">Amit Chaudhary</h3>
+            <p class="love-laptop">Love the Laptop</p>
+            <p class="reviewer-review">The customization available on the back end is really fantastic. No more code changes if you want to change a button color or font size.</p>
+            <p class="review-date-time">
+              <img src="img/date.png" alt="Date" /><span>23 May 2021</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <img src="img/time.png" alt="Date" /><span>2 hours ago</span>
+            </p>
+          </div>
+        </div>
+        <div class="review-item">
+          <div class="review-stars">
+            <img src="img/bad-review.png" alt="Rating" />
+          </div>
+          <div class="review-item-img">
+            <img src="img/review-hub.png" alt="Reviewer Image" />
+          </div>
+          <div class="review-item-text">
+            <h3 class="reviewer-name">Amit Chaudhary</h3>
+            <p class="love-laptop">Love the Laptop</p>
+            <p class="reviewer-review">The customization available on the back end is really fantastic. No more code changes if you want to change a button color or font size.</p>
+            <p class="review-date-time">
+              <img src="img/date.png" alt="Date" /><span>23 May 2021</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <img src="img/time.png" alt="Date" /><span>2 hours ago</span>
+            </p>
+          </div>
+        </div>
+        <div class="review-item">
+          <div class="review-stars">
+            <img src="img/good-review.png" alt="Rating" />
+          </div>
+          <div class="review-item-img">
+            <img src="img/person.png" alt="Reviewer Image" />
+          </div>
+          <div class="review-item-text">
+            <h3 class="reviewer-name">Amit Chaudhary</h3>
+            <p class="love-laptop">Love the Laptop</p>
+            <p class="reviewer-review">The customization available on the back end is really fantastic. No more code changes if you want to change a button color or font size.</p>
+            <p class="review-date-time">
+              <img src="img/date.png" alt="Date" /><span>23 May 2021</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <img src="img/time.png" alt="Date" /><span>2 hours ago</span>
+            </p>
+          </div>
+        </div>
+        <div class="review-item">
+          <div class="review-stars">
+            <img src="img/good-review.png" alt="Rating" />
+          </div>
+          <div class="review-item-img">
+            <img src="img/person.png" alt="Reviewer Image" />
+          </div>
+          <div class="review-item-text">
+            <h3 class="reviewer-name">Amit Chaudhary</h3>
+            <p class="love-laptop">Love the Laptop</p>
+            <p class="reviewer-review">The customization available on the back end is really fantastic. No more code changes if you want to change a button color or font size.</p>
+            <p class="review-date-time">
+              <img src="img/date.png" alt="Date" /><span>23 May 2021</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <img src="img/time.png" alt="Date" /><span>2 hours ago</span>
+            </p>
+          </div>
+        </div>
+        <div class="review-item">
+          <div class="review-stars">
+            <img src="img/bad-review.png" alt="Rating" />
+          </div>
+          <div class="review-item-img">
+            <img src="img/person.png" alt="Reviewer Image" />
+          </div>
+          <div class="review-item-text">
+            <h3 class="reviewer-name">Amit Chaudhary</h3>
+            <p class="love-laptop">Love the Laptop</p>
+            <p class="reviewer-review">The customization available on the back end is really fantastic. No more code changes if you want to change a button color or font size.</p>
+            <p class="review-date-time">
+              <img src="img/date.png" alt="Date" /><span>23 May 2021</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <img src="img/time.png" alt="Date" /><span>2 hours ago</span>
+            </p>
+          </div>
+        </div>
+        <div class="review-item">
+          <div class="review-stars">
+            <img src="img/good-review.png" alt="Rating" />
+          </div>
+          <div class="review-item-img">
+            <img src="img/person.png" alt="Reviewer Image" />
+          </div>
+          <div class="review-item-text">
+            <h3 class="reviewer-name">Amit Chaudhary</h3>
+            <p class="love-laptop">Love the Laptop</p>
+            <p class="reviewer-review">The customization available on the back end is really fantastic. No more code changes if you want to change a button color or font size.</p>
+            <p class="review-date-time">
+              <img src="img/date.png" alt="Date" /><span>23 May 2021</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <img src="img/time.png" alt="Date" /><span>2 hours ago</span>
+            </p>
+          </div>
+        </div>
+        <div class="review-item">
+          <div class="review-stars">
+            <img src="img/good-review.png" alt="Rating" />
+          </div>
+          <div class="review-item-img">
+            <img src="img/person.png" alt="Reviewer Image" />
+          </div>
+          <div class="review-item-text">
+            <h3 class="reviewer-name">Amit Chaudhary</h3>
+            <p class="love-laptop">Love the Laptop</p>
+            <p class="reviewer-review">The customization available on the back end is really fantastic. No more code changes if you want to change a button color or font size.</p>
+            <p class="review-date-time">
+              <img src="img/date.png" alt="Date" /><span>23 May 2021</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <img src="img/time.png" alt="Date" /><span>2 hours ago</span>
+            </p>
+          </div>
+        </div>
+        <div class="review-item">
+          <div class="review-stars">
+            <img src="img/bad-review.png" alt="Rating" />
+          </div>
+          <div class="review-item-img">
+            <img src="img/person.png" alt="Reviewer Image" />
+          </div>
+          <div class="review-item-text">
+            <h3 class="reviewer-name">Amit Chaudhary</h3>
+            <p class="love-laptop">Love the Laptop</p>
+            <p class="reviewer-review">The customization available on the back end is really fantastic. No more code changes if you want to change a button color or font size.</p>
+            <p class="review-date-time">
+              <img src="img/date.png" alt="Date" /><span>23 May 2021</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <img src="img/time.png" alt="Date" /><span>2 hours ago</span>
+            </p>
+          </div>
+        </div>
+        <div class="review-item">
+          <div class="review-stars">
+            <img src="img/good-review.png" alt="Rating" />
+          </div>
+          <div class="review-item-img">
+            <img src="img/person.png" alt="Reviewer Image" />
+          </div>
+          <div class="review-item-text">
+            <h3 class="reviewer-name">Amit Chaudhary</h3>
+            <p class="love-laptop">Love the Laptop</p>
+            <p class="reviewer-review">The customization available on the back end is really fantastic. No more code changes if you want to change a button color or font size.</p>
+            <p class="review-date-time">
+              <img src="img/date.png" alt="Date" /><span>23 May 2021</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <img src="img/time.png" alt="Date" /><span>2 hours ago</span>
+            </p>
+          </div>
+        </div>
+        <div class="review-item">
+          <div class="review-stars">
+            <img src="img/bad-review.png" alt="Rating" />
+          </div>
+          <div class="review-item-img">
+            <img src="img/person.png" alt="Reviewer Image" />
+          </div>
+          <div class="review-item-text">
+            <h3 class="reviewer-name">Amit Chaudhary</h3>
+            <p class="love-laptop">Love the Laptop</p>
+            <p class="reviewer-review">The customization available on the back end is really fantastic. No more code changes if you want to change a button color or font size.</p>
+            <p class="review-date-time">
+              <img src="img/date.png" alt="Date" /><span>23 May 2021</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <img src="img/time.png" alt="Date" /><span>2 hours ago</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Recent Review Ends -->
+
+<!-- Feature starts -->
+<section class="features">
+  <div class="features-head">ReviewXtra Features<br /> for Merchants</div>
+  <p class="feature-benefits-text">ReviewXtra is a review community that builds trust and transparency between consumers and businesses</p>
+  <div class="container">
+    <div class="row">
+      <div class="feature-items">
+        <div class="feature-item">
+          <div class="feature-item-img">
+            <a href="#popup1"><img src="img/reputation.png" alt="Review Benefits" /></a>
+          </div>
+          <div class="feature-item-text">
+            <div class="feature-item-head">
+              <h5>build your reputation</h5>
+            </div>
+            <div class="feature-item-desc">
+              <p>Share your honest Merchant Reviews<br /> and let customers know who <br /> you really are</p>
+            </div>
+          </div>
+          <div class="feature-item-img">
+            <a href="#popup2"><img src="img/camera.png" alt="Review Benefits" /></a>
+          </div>
+          <div class="feature-item-text">
+            <div class="feature-item-head">
+              <h5>add pictures to reviews</h5>
+            </div>
+            <div class="feature-item-desc">
+              <p>Your customers will now be<br /> able to add pictures of items they are<br /> sharing reviews about</p>
+            </div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-item-img">
+            <a href="#popup3"><img src="img/share.png" alt="Review Benefits" /></a>
+          </div>
+          <div class="feature-item-text">
+            <div class="feature-item-head">
+              <h5>share reviews</h5>
+            </div>
+            <div class="feature-item-desc">
+              <p>With ReviewXtra, you will able to connect to<br /> and contribute to or share<br /> our product review database.</p>
+            </div>
+          </div>
+          <div class="feature-item-img">
+            <a href="#popup4"><img src="img/page.png" alt="Review Benefits" /></a>
+          </div>
+          <div class="feature-item-text">
+            <div class="feature-item-head">
+              <h5>custom merchant page</h5>
+            </div>
+            <div class="feature-item-desc">
+              <p>Share the products reviews<br /> of other via our central<br /> product review database</p>
+            </div>
+          </div>
+        </div>
+        <div class="feature-item">
+          <div class="feature-item-img">
+            <a href="#popup5"><img src="img/twitter.png" alt="Review Benefits" /></a>
+          </div>
+          <div class="feature-item-text">
+            <div class="feature-item-head">
+              <h5>review on twitter</h5>
+            </div>
+            <div class="feature-item-desc">
+              <p>Share the products reviews<br /> of other via our central<br /> product review database</p>
+            </div>
+          </div>
+          <div class="feature-item-img">
+            <a href="#popup6"><img src="img/google.png" alt="Review Benefits" /></a>
+          </div>
+          <div class="feature-item-text">
+            <div class="feature-item-head">
+              <h5>reviews on google</h5>
+            </div>
+            <div class="feature-item-desc">
+              <p>Share the products reviews<br /> of other via our central<br /> product review database</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Feature Ends -->
+
+<!-- Pricing Starts -->
+<section class="pricing">
+  <div class="pricing-head">Pricing</div>
+  <p class="pricing-text">We have the perfact solution to connect you with your customers</p>
+  <div class="container">
+    <div class="row">
+      <div class="pricing-items">
+        <div class="pricing-item">
+          <div class="pricing-item-text">
+            <div class="pricing-item-head">
+              <h5>free</h5>
+            </div>
+            <div class="pricing-item-desc">
+              <p>Elit massa sit sed commodo sit proin</p>
+            </div>
+          </div>
+          <div class="pricing-item-img">
+            <img src="img/home.png" alt="Home Image" />
+          </div>
+          <div class="pricing-item-price">
+            <div class="sign">$</div>
+            <div class="amount">0</div>
+            <div class="month">per month</div>
+          </div>
+          <div class="pricing-item-features">
+            <ul>
+              <li><img src="img/tick.png"><span>collect merchants review</span></li>
+            </ul>
+          </div>
+          <div class="pricing-item-btn">
+            <a href="#">Try for Free</a>
+          </div>
+        </div>
+        <div class="pricing-item active">
+          <div class="pricing-item-text">
+            <div class="pricing-item-head">
+              <h5>Standard</h5>
+            </div>
+            <div class="pricing-item-desc">
+              <p>Sed maecenas feugiat nec bibendum</p>
+            </div>
+          </div>
+          <div class="pricing-item-img">
+            <img src="img/home.png" alt="Home Image" />
+          </div>
+          <div class="pricing-item-price">
+            <div class="sign">$</div>
+            <div class="amount">9.99</div>
+            <div class="month">per month</div>
+          </div>
+          <div class="pricing-item-features">
+            <ul>
+              <li><img src="img/tick.png"><span>collect merchants reviews</span></li>
+              <li><img src="img/tick.png"><span>collect product reviews</span></li>
+              <li><img src="img/tick.png"><span>share product review</span></li>
+              <li><img src="img/tick.png"><span>add pictures to review</span></li>
+            </ul>
+          </div>
+          <div class="pricing-item-btn active">
+            <a href="#">Try for Free</a>
+          </div>
+        </div>
+        <div class="pricing-item">
+          <div class="pricing-item-text">
+            <div class="pricing-item-head">
+              <h5>pro</h5>
+            </div>
+            <div class="pricing-item-desc">
+              <p>Vel quam lacus sapien vitae odio at id.</p>
+            </div>
+          </div>
+          <div class="pricing-item-img">
+            <img src="img/home.png" alt="Home Image" />
+          </div>
+          <div class="pricing-item-price">
+            <div class="sign">$</div>
+            <div class="amount">19.99</div>
+            <div class="month">per month</div>
+          </div>
+          <div class="pricing-item-features">
+            <ul>
+              <li><img src="img/tick.png"><span>collect merch reviews</span></li>
+              <li><img src="img/tick.png"><span>collect product reviews</span></li>
+              <li><img src="img/tick.png"><span>share product review</span></li>
+              <li><img src="img/tick.png"><span>add pictures to review</span></li>
+              <li><img src="img/tick.png"><span>review on google</span></li>
+              <li><img src="img/tick.png"><span>custom merchant page</span></li>
+            </ul>
+          </div>
+          <div class="pricing-item-btn active">
+            <a href="#">Try for Free</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Pricing Ends -->
+
+<!-- Profile Starts -->
+<section class="claim-profile">
+  <div class="claim-profile-head">
+    Claim your profile now for FREE
+  </div>
+  <div class="collecting-reviews">
+    <p>Simplest way to start collecting reviews</p>
+    <p class="start-btn"><a href="#">Get Started for Free</a></p>
+  </div>
+</section>
+<!-- Profile ends -->
+
+<!-- Feature List Starts -->
+<section class="feature-list">
+  <div class="table-responsive">
+    <table>
+      <tr>
+        <th rowspan="2" class="feature-list-head"><div>Feature List</div></th>
+        <th>Starter</th>
+        <th>Standard</th>
+        <th>Pro</th>
+      </tr>
+      <tr>
+        <td class="feature-list-price">Free</td>
+        <td class="feature-list-price">$9.99</td>
+        <td class="feature-list-price">$19.99</td>
+      </tr>
+      <tr class="service">
+        <td>Standard ReviewHub Service</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td class="feature-text">Build your reputation</td>
+        <td><img src="img/checked.png" alt="Checked" /></td>
+        <td><img src="img/checked.png" alt="Checked" /></td>
+        <td><img src="img/checked.png" alt="Checked" /></td>
+      </tr>
+      <tr>
+        <td class="feature-text">Collect Product Reviews</td>
+        <td><img src="img/unchecked.png" alt="Unchecked" /></td>
+        <td><img src="img/checked.png" alt="Checked" /></td>
+        <td><img src="img/checked.png" alt="Checked" /></td>
+      </tr>
+      <tr>
+        <td class="feature-text">Automated Review Reminder Emails</td>
+        <td><img src="img/unchecked.png" alt="Unchecked" /></td>
+        <td><img src="img/checked.png" alt="Checked" /></td>
+        <td><img src="img/checked.png" alt="Checked" /></td>
+      </tr>
+      <tr>
+        <td class="feature-text">Share Product Reviews</td>
+        <td><img src="img/unchecked.png" alt="Unchecked" /></td>
+        <td><img src="img/unchecked.png" alt="Checked" /></td>
+        <td><img src="img/checked.png" alt="Checked" /></td>
+      </tr>
+      <tr>
+        <td class="feature-text">Add Pictures to Reviews</td>
+        <td><img src="img/unchecked.png" alt="Unchecked" /></td>
+        <td><img src="img/checked.png" alt="Checked" /></td>
+        <td><img src="img/checked.png" alt="Checked" /></td>
+      </tr>
+      <tr class="feature-text">
+        <td class="feature-text">Review on Google</td>
+        <td><img src="img/unchecked.png" alt="Unchecked" /></td>
+        <td><img src="img/unchecked.png" alt="Checked" /></td>
+        <td><img src="img/checked.png" alt="Checked" /></td>
+      </tr>
+      <tr class="feature-text">
+        <td class="feature-text">Custom Merchant Page</td>
+        <td><img src="img/unchecked.png" alt="Unchecked" /></td>
+        <td><img src="img/unchecked.png" alt="Checked" /></td>
+        <td><img src="img/checked.png" alt="Checked" /></td>
+      </tr>
+    </table>
+  </div>
+  <div class="start-collecting">
+    <p>Start collecting customer reviews today</p>
+    <p class="start-btn"><a href="#">Get Started for Free</a></p>
+  </div>
+</section>
+<!-- Feature List Ends -->
+
+<!-- Out partners starts -->
+<section class="our-partners">
+  <div class="our-partners-head">Our Partners</div>
+  <div class="container">
+    <div class="row">
+      <div class="our-partners-items">
+        <div class="our-partners-item">
+          <div class="our-partners-item-img">
+            <img src="img/fb.png" alt="Facebook" />
+          </div>
+        </div>
+        <div class="our-partners-item">
+          <div class="our-partners-item-img google">
+            <img src="img/google-1.png" alt="Google" />
+          </div>
+        </div>
+        <div class="our-partners-item">
+          <div class="our-partners-item-img">
+            <img src="img/stripe.png" alt="Stripe" />
+          </div>
+        </div>
+        <div class="our-partners-item">
+          <div class="our-partners-item-img google">
+            <img src="img/paypal.png" alt="PayPal" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</section>
+<!-- Our partners ends -->
+
+<!-- Footer Starts -->
+<section class="footer">
+  <div class="footer-items">
+    <div class="about-review-extra">
+      <div class="logo">
+        <img src="img/logo-1.png" alt="Logo" />
+      </div>
+      <div class="rated-head">See how we are Rated</div>
+      <div class="website">
+        <p>Reviewxtra. <a href="#">http://reviewxtra.com.ng/</a></p>
+      </div>
+      <div class="ratings">
+        <img src="img/rating-stars.png" alt="Ratings" /><span>4.9/5</span>
+      </div>
+      <div class="based-on">Based on 18 ReviewXtra reviews</div>
+      <div class="powered-by">
+        Powered by: <span>Review</span><span class="white-text">Xtra</span>
+      </div>
+    </div>
+    <div class="links">
+      <div class="links-items">
+        <div class="links-item">
+          <div class="links-item-head">ReviewXtra</div>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Plans</a></li>
+          </ul>
+        </div>
+        <div class="links-item">
+          <div class="links-item-head">Resources</div>
+          <ul>
+            <li><a href="#">Integrations</a></li>
+            <li><a href="#">Businesses</a></li>
+            <li><a href="#">Migration</a></li>
+          </ul>
+        </div>
+        <div class="links-item">
+          <div class="links-item-head">Help</div>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Support Desk</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="social-links">
+      <div class="social-links-head">Contact with Us</div>
+      <ul>
+        <li><a href="#"><img src="img/twit-icon.png" alt="Twitter" /></a></li>
+        <li><a href="#"><img src="img/fb-icon.png" alt="Facebook" /></a></li>
+        <li><a href="#"><img src="img/insta-icon.png" alt="Instagram" /></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- Footer Ends -->
+  <script src="js/main.js"></script>
+</body>
+</html>
+

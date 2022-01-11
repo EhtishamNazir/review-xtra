@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Merchants</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!-- font awesome -->
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <!-- main css -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
+</head>
+<body>
+
+<!-- Header Starts -->
+<header class="header">
+  <div class="container">
+  	<div class="row">
+  		<div class="brand-name">
+  			<a href="index.html" class="logo">
+  				<img src="img/logo.png" alt="Logo" />
+  			</a>
+  		</div>
+  		<div class="ham-burger">
+  			<i class="fa fa-bars"></i>
+  		</div>
+  		<div class="navbar">
+  			<ul>
+  				<li><a href="#" class="active">Features</a></li>
+  				<li><a href="#">Welcome Amit Chaudhary</a></li>
+  				<li><a href="#">My Dashboard</a></li>
+  				<li><a href="#">Logout</a></li>
+  				<li><a href="#"><span class="merchant-btn">Merchant</span></a></li>
+  			</ul>
+  		</div>
+  	</div>
+  </div>
+</header>
+<!-- Header Ends -->
+
+<!-- MS Corporation starts -->
+<section class="ms-corporation">
+  <div class="ms-corporation-items">
+    <div class="ms-corporation-item">
+      <div class="ms-corporation-img">
+        <img src="img/microsoft-2.png" alt="Microsoft" />
+      </div>
+      <div class="ms-corporation-text">
+        <div class="ms-text">Microsoft Incorporation</div>
+        <img src="img/rating-stars-2.png" alt="Ratings" />
+        <div class="rating-text">9.4 Ratings &nbsp;&nbsp;&nbsp;2,051 Reviews</div>
+      </div>
+    </div>
+    <div class="ms-corporation-item">
+      <p class="ms-link"><a href="#">Visit Microsoft.com</a></p>
+    </div>
+  </div>
+</section>
+<!-- MS Carporation ends -->
+
+<!-- Merchant Info Starts -->
+<section class="merchant-info">
+  <div class="merchant-info-items">
+    <div class="merchant-info-text">
+      <div class="tab">
+        <button id="info" class="tablinks active" onclick="infoReview(event, 'Info')">Merchant Information</button>
+        <button id="review" class="tablinks" onclick="infoReview(event, 'Reviews')">Reviews</button>
+      </div>
+
+      <!-- Tab content -->
+      <div id="Info" class="tabcontent" style="display: block;">
+        <h3 class="overview-head">Merchant Overview</h3>
+        <p class="overview-text">In January 1975, Allen read an article in Popular Electronics magazine about the Altair 8800 microcomputer and showed it to Gates. Gates called MITS, makers of the Altair, and offered his and Allen's services to write a version of the new BASIC programming language for the Altair.</p>
+        <p class="overview-text"> After eight weeks, Allen and Gates demonstrated their program to MITS, which agreed to distribute and market the product under the name Altair BASIC. The deal inspired Gates and Allen to form their own software company. Thus, Microsoft was started on April 4, 1975 in Albuquerque, New Mexico—the home of MITS—with Gates as the first CEO.</p>
+        <p class="overview-text">On July 29, 1975, Gates used the name "Micro-Soft"—which had been suggested by Allen—in a letter to Allen referring to their partnership. The name, a portmanteau of "microcomputer" and "software," was registered with the New Mexico secretary of state on Nov. 26, 1976.</p>
+      </div>
+
+      <div id="Reviews" class="tabcontent">
+        <div class="reviews-header">
+          <div class="reviews-heading">
+            <h3>Reviews</h3>
+          </div>
+          <div class="filters">
+            <ul>
+              <li><a href="#" class="active">All</a></li>
+              <li><a href="#"><i class="fa fa-eye"></i>&nbsp;Published</a></li>
+              <li><a href="#"><i class="fa fa-eye-slash"></i>&nbsp;Unpublished</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="reviews-body">
+          <div class="review-items">
+            <div class="review-item">
+              <div class="published-icon">
+                <i class="fa fa-eye"></i>
+              </div>
+              <div class="review-stars">
+                <img src="img/good-review-2.png" alt="Rating" />
+              </div>
+              <div class="review-item-img">
+                <img src="img/person.png" alt="Reviewer Image" />
+              </div>
+              <div class="review-item-text">
+                <h3 class="reviewer-name">Amit Chaudhary</h3>
+                <p class="love-laptop">Love the Laptop</p>
+                <p class="reviewer-review">The customization available on the back end is really fantastic. No more code changes if you want to change a button color or font size.</p>
+                <p class="review-date-time">
+                  <img src="img/date.png" alt="Date" /><span>23 May 2021</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <img src="img/time.png" alt="Date" /><span>2 hours ago</span>
+                </p>
+              </div>
+            </div>
+            <div class="review-item">
+              <div class="published-icon">
+                <i class="fa fa-eye"></i>
+              </div>
+              <div class="review-stars">
+                <img src="img/good-review-2.png" alt="Rating" />
+              </div>
+              <div class="review-item-img">
+                <img src="img/person.png" alt="Reviewer Image" />
+              </div>
+              <div class="review-item-text">
+                <h3 class="reviewer-name">Amit Chaudhary</h3>
+                <p class="love-laptop">Love the Laptop</p>
+                <p class="reviewer-review">The customization available on the back end is really fantastic. No more code changes if you want to change a button color or font size.</p>
+                <p class="review-date-time">
+                  <img src="img/date.png" alt="Date" /><span>23 May 2021</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <img src="img/time.png" alt="Date" /><span>2 hours ago</span>
+                </p>
+              </div>
+            </div>
+            <div class="review-item">
+              <div class="published-icon">
+                <i class="fa fa-eye-slash"></i>
+              </div>
+              <div class="review-stars">
+                <img src="img/good-review-2.png" alt="Rating" />
+              </div>
+              <div class="review-item-img">
+                <img src="img/person.png" alt="Reviewer Image" />
+              </div>
+              <div class="review-item-text">
+                <h3 class="reviewer-name">Amit Chaudhary</h3>
+                <p class="love-laptop">Love the Laptop</p>
+                <p class="reviewer-review">The customization available on the back end is really fantastic. No more code changes if you want to change a button color or font size.</p>
+                <p class="review-date-time">
+                  <img src="img/date.png" alt="Date" /><span>23 May 2021</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <img src="img/time.png" alt="Date" /><span>2 hours ago</span>
+                </p>
+              </div>
+            </div>
+            <div class="review-item">
+              <div class="published-icon">
+                <i class="fa fa-eye-slash"></i>
+              </div>
+              <div class="review-stars">
+                <img src="img/good-review-2.png" alt="Rating" />
+              </div>
+              <div class="review-item-img">
+                <img src="img/person.png" alt="Reviewer Image" />
+              </div>
+              <div class="review-item-text">
+                <h3 class="reviewer-name">Amit Chaudhary</h3>
+                <p class="love-laptop">Love the Laptop</p>
+                <p class="reviewer-review">The customization available on the back end is really fantastic. No more code changes if you want to change a button color or font size.</p>
+                <p class="review-date-time">
+                  <img src="img/date.png" alt="Date" /><span>23 May 2021</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <img src="img/time.png" alt="Date" /><span>2 hours ago</span>
+                </p>
+              </div>
+            </div>
+            <div class="review-item">
+              <div class="published-icon">
+                <i class="fa fa-eye"></i>
+              </div>
+              <div class="review-stars">
+                <img src="img/good-review-2.png" alt="Rating" />
+              </div>
+              <div class="review-item-img">
+                <img src="img/person.png" alt="Reviewer Image" />
+              </div>
+              <div class="review-item-text">
+                <h3 class="reviewer-name">Amit Chaudhary</h3>
+                <p class="love-laptop">Love the Laptop</p>
+                <p class="reviewer-review">The customization available on the back end is really fantastic. No more code changes if you want to change a button color or font size.</p>
+                <p class="review-date-time">
+                  <img src="img/date.png" alt="Date" /><span>23 May 2021</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <img src="img/time.png" alt="Date" /><span>2 hours ago</span>
+                </p>
+              </div>
+            </div>
+            <div class="review-item">
+              <div class="published-icon">
+                <i class="fa fa-eye-slash"></i>
+              </div>
+              <div class="review-stars">
+                <img src="img/good-review-2.png" alt="Rating" />
+              </div>
+              <div class="review-item-img">
+                <img src="img/person.png" alt="Reviewer Image" />
+              </div>
+              <div class="review-item-text">
+                <h3 class="reviewer-name">Amit Chaudhary</h3>
+                <p class="love-laptop">Love the Laptop</p>
+                <p class="reviewer-review">The customization available on the back end is really fantastic. No more code changes if you want to change a button color or font size.</p>
+                <p class="review-date-time">
+                  <img src="img/date.png" alt="Date" /><span>23 May 2021</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <img src="img/time.png" alt="Date" /><span>2 hours ago</span>
+                </p>
+              </div>
+            </div>
+            <div class="review-item">
+              <div class="published-icon">
+                <i class="fa fa-eye"></i>
+              </div>
+              <div class="review-stars">
+                <img src="img/good-review-2.png" alt="Rating" />
+              </div>
+              <div class="review-item-img">
+                <img src="img/person.png" alt="Reviewer Image" />
+              </div>
+              <div class="review-item-text">
+                <h3 class="reviewer-name">Amit Chaudhary</h3>
+                <p class="love-laptop">Love the Laptop</p>
+                <p class="reviewer-review">The customization available on the back end is really fantastic. No more code changes if you want to change a button color or font size.</p>
+                <p class="review-date-time">
+                  <img src="img/date.png" alt="Date" /><span>23 May 2021</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <img src="img/time.png" alt="Date" /><span>2 hours ago</span>
+                </p>
+              </div>
+            </div>
+            <div class="review-item">
+              <div class="published-icon">
+                <i class="fa fa-eye-slash"></i>
+              </div>
+              <div class="review-stars">
+                <img src="img/good-review-2.png" alt="Rating" />
+              </div>
+              <div class="review-item-img">
+                <img src="img/person.png" alt="Reviewer Image" />
+              </div>
+              <div class="review-item-text">
+                <h3 class="reviewer-name">Amit Chaudhary</h3>
+                <p class="love-laptop">Love the Laptop</p>
+                <p class="reviewer-review">The customization available on the back end is really fantastic. No more code changes if you want to change a button color or font size.</p>
+                <p class="review-date-time">
+                  <img src="img/date.png" alt="Date" /><span>23 May 2021</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <img src="img/time.png" alt="Date" /><span>2 hours ago</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="merchant-contact" id="merchant-contact">
+        <div class="merchant-contact-head">Merchant's Contact</div>
+        <div class="merchant-contact-items">
+          <div class="merchant-contact-item">
+            <div class="merchant-contact-item-head">Website</div>
+            <div class="link">
+              <img src="img/website.png" alt="Website" />
+              <span><a href="#">ReviewXtra.com</a></span>
+            </div>
+          </div>
+          <div class="merchant-contact-item">
+            <div class="merchant-contact-item-head" style="margin-left: 0;">Social Media</div>
+            <div class="link">
+              <div class="social-links">
+                <a href="#"><img src="img/facebook.png" alt="Facebook" /></a>
+                <a href="#"><img src="img/twitter-circle.png" alt="Twitter" /></a>
+                <a href="#"><img src="img/instagram.png" alt="Instagram" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="merchant-contact-item">
+            <div class="merchant-contact-item-head">Email</div>
+            <div class="link">
+              <img src="img/envelop.png" alt="Website" />
+              <span><a href="#">ReviewXtra.com</a></span>
+            </div>
+          </div>
+          <div class="merchant-contact-item">
+            <div class="merchant-contact-item-head">Phone Number</div>
+            <div class="link">
+              <img src="img/phone.png" alt="Website" />
+              <span><a href="#">+44 12251 1211</a></span>
+            </div>
+          </div>
+        </div>
+        <div class="mobile-apps">
+          <span>Merchant Mobile App</span>
+          <a href="#">
+            <img src="img/google-play.png" alt="Play Store" />
+          </a>
+          <a href="#">
+            <img src="img/app-store.png" alt="App Store" />
+          </a>
+        </div>
+      </div>
+      <div class="merchant-contact" id="photo-reviews">
+        <div class="merchant-contact-head">Photos Reviews</div>
+        <div class="photo-reviews-items">
+          <div class="photo-reviews-item">
+            <div class="photo-reviews-item-head">
+              <p>Review by</p>
+            </div>
+            <div class="photo-reviews-item-body">
+              <img src="img/person-3.png" alt="Person" />
+              <div class="video-icon">
+                <img src="img/video-icon.png" alt="Video Icon" />
+              </div>
+              <!-- <div class="stars">
+                <img src="img/stars.png" alt="Stars" />
+              </div> -->
+            </div>
+            <div class="photo-reviews-item-footer">
+              Influencer influences your purchases
+            </div>
+          </div>
+          <div class="photo-reviews-item">
+            <div class="photo-reviews-item-head">
+              <p>Review by</p>
+            </div>
+            <div class="photo-reviews-item-body">
+              <img src="img/person-3.png" alt="Person" />
+              <div class="video-icon">
+                <img src="img/video-icon.png" alt="Video Icon" />
+              </div>
+              <!-- <div class="stars">
+                <img src="img/stars.png" alt="Stars" />
+              </div> -->
+            </div>
+            <div class="photo-reviews-item-footer">
+              Influencer influences your purchases
+            </div>
+          </div>
+          <div class="photo-reviews-item">
+            <div class="photo-reviews-item-head">
+              <p>Review by</p>
+            </div>
+            <div class="photo-reviews-item-body">
+              <img src="img/person-3.png" alt="Person" />
+              <div class="video-icon">
+                <img src="img/video-icon.png" alt="Video Icon" />
+              </div>
+              <!-- <div class="stars">
+                <img src="img/stars.png" alt="Stars" />
+              </div> -->
+            </div>
+            <div class="photo-reviews-item-footer">
+              Influencer influences your purchases
+            </div>
+          </div>
+          <div class="photo-reviews-item">
+            <div class="photo-reviews-item-head">
+              <p>Review by</p>
+            </div>
+            <div class="photo-reviews-item-body">
+              <img src="img/person-3.png" alt="Person" />
+              <div class="video-icon">
+                <img src="img/video-icon.png" alt="Video Icon" />
+              </div>
+              <!-- <div class="stars">
+                <img src="img/stars.png" alt="Stars" />
+              </div> -->
+            </div>
+            <div class="photo-reviews-item-footer">
+              Influencer influences your purchases
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Latest Reviews Start -->
+    <div class="latest-reviews" id="latest-reviews">
+      <div class="latest-reviews-head">Latest Reviews</div>
+      
+      <div class="latest-reviews-item">
+        <div class="latest-reviews-stars">
+          <img src="img/good-review-2.png" alt="Ratings" />
+        </div>
+        <div class="latest-reviews-img">
+          <img src="img/person.png" alt="Person" />
+        </div>
+        <div class="latest-reviews-text">
+          <div class="reviewer-name">Amit Chaudhary</div>
+          <div class="love-laptop">Love the Laptop</div>
+          <div class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam gravida tempus quis viverra sed dui consectetur quam duis. Sagittis eget nulla nec tellus in feugiat mi tempus. Sapien.</div>
+        </div>
+      </div>
+      <div class="latest-reviews-item">
+        <div class="latest-reviews-stars">
+          <img src="img/good-review-2.png" alt="Ratings" />
+        </div>
+        <div class="latest-reviews-img">
+          <img src="img/person.png" alt="Person" />
+        </div>
+        <div class="latest-reviews-text">
+          <div class="reviewer-name">Amit Chaudhary</div>
+          <div class="love-laptop">Love the Laptop</div>
+          <div class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam gravida tempus quis viverra sed dui consectetur quam duis. Sagittis eget nulla nec tellus in feugiat mi tempus. Sapien.</div>
+        </div>
+      </div>
+      <div class="latest-reviews-item">
+        <div class="latest-reviews-stars">
+          <img src="img/good-review-2.png" alt="Ratings" />
+        </div>
+        <div class="latest-reviews-img">
+          <img src="img/person.png" alt="Person" />
+        </div>
+        <div class="latest-reviews-text">
+          <div class="reviewer-name">Amit Chaudhary</div>
+          <div class="love-laptop">Love the Laptop</div>
+          <div class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam gravida tempus quis viverra sed dui consectetur quam duis. Sagittis eget nulla nec tellus in feugiat mi tempus. Sapien.</div>
+        </div>
+      </div>
+      <div class="latest-reviews-item">
+        <div class="latest-reviews-stars">
+          <img src="img/good-review-2.png" alt="Ratings" />
+        </div>
+        <div class="latest-reviews-img">
+          <img src="img/person.png" alt="Person" />
+        </div>
+        <div class="latest-reviews-text">
+          <div class="reviewer-name">Amit Chaudhary</div>
+          <div class="love-laptop">Love the Laptop</div>
+          <div class="review">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam gravida tempus quis viverra sed dui consectetur quam duis. Sagittis eget nulla nec tellus in feugiat mi tempus. Sapien.</div>
+        </div>
+      </div>
+    </div>
+    <!-- Latest Reviews Ends -->
+    <div class="latest-reviews" id="filter-reviews">
+      <div class="latest-reviews-head">Filters Reviews</div>
+      
+      <div class="filter-reviews-items">
+        <div class="filter-reviews-item">
+          <div class="filter-reviews-rating-bar">
+            <div class="stars">
+              <p>5 Stars</p>
+            </div>
+            <div class="progress inner-shadow">
+              <div class="progress-bar green" style="width: calc(70% - 14px)">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="filter-reviews-item">
+          <div class="filter-reviews-rating-bar">
+            <div class="stars">
+              <p>4 Stars</p>
+            </div>
+            <div class="progress inner-shadow">
+              <div class="progress-bar green" style="width: calc(40% - 14px)">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="filter-reviews-item">
+          <div class="filter-reviews-rating-bar">
+            <div class="stars">
+              <p>3 Stars</p>
+            </div>
+            <div class="progress inner-shadow">
+              <div class="progress-bar green" style="width: calc(30% - 14px)">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="filter-reviews-item">
+          <div class="filter-reviews-rating-bar">
+            <div class="stars">
+              <p>2 Stars</p>
+            </div>
+            <div class="progress inner-shadow">
+              <div class="progress-bar green" style="width: calc(20% - 14px)">
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="filter-reviews-item">
+          <div class="filter-reviews-rating-bar">
+            <div class="stars">
+              <p>1 Star</p>
+            </div>
+            <div class="progress inner-shadow">
+              <div class="progress-bar green" style="width: calc(10% - 14px)">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="ms-user-ratings">
+        <div class="ms-user-ratings-items">
+          <div class="ms-user-ratings-items-head">Microsoft User Ratings</div>
+          <div class="ms-user-ratings-item">
+            <div class="ms-user-ratings-item-number">
+              8.2
+            </div>
+            <div class="ms-user-ratings-item-text">
+              <p class="type">Ease of Use</p>
+              <p class="average">Product Reviews<br />Average 9.0</p>
+            </div>
+          </div>
+          <div class="ms-user-ratings-item">
+            <div class="ms-user-ratings-item-number blue">
+              8.5
+            </div>
+            <div class="ms-user-ratings-item-text">
+              <p class="type">Quality of Support</p>
+              <p class="average">Product Reviews<br />Average 8.7</p>
+            </div>
+          </div>
+          <div class="ms-user-ratings-item">
+            <div class="ms-user-ratings-item-number sky-blue">
+              7.2
+            </div>
+            <div class="ms-user-ratings-item-text">
+              <p class="type">Ease of Setup</p>
+              <p class="average">Product Reviews<br />Average 8.6</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="filter-reviews-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2688.171668915945!2d-122.13912188505478!3d47.64223077918709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906d71b804151b%3A0x1a52969ee03899e!2sMicrosoft!5e0!3m2!1sen!2s!4v1623333388461!5m2!1sen!2s" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <p class="address">Microsoft Corporation One Microsoft Way, Redmond, WA 98052- 6399 USA</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Merchant info Ends -->
+
+<!-- Footer Starts -->
+<section class="footer">
+  <div class="footer-items">
+    <div class="about-review-extra">
+      <div class="logo">
+        <img src="img/logo-1.png" alt="Logo" />
+      </div>
+      <div class="rated-head">See how we are Rated</div>
+      <div class="website">
+        <p>Reviewxtra. <a href="#">http://reviewxtra.com.ng/</a></p>
+      </div>
+      <div class="ratings">
+        <img src="img/rating-stars.png" alt="Ratings" /><span>4.9/5</span>
+      </div>
+      <div class="based-on">Based on 18 ReviewXtra reviews</div>
+      <div class="powered-by">
+        Powered by: <span>Review</span><span class="white-text">Xtra</span>
+      </div>
+    </div>
+    <div class="links">
+      <div class="links-items">
+        <div class="links-item">
+          <div class="links-item-head">ReviewXtra</div>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Plans</a></li>
+          </ul>
+        </div>
+        <div class="links-item">
+          <div class="links-item-head">Resources</div>
+          <ul>
+            <li><a href="#">Integrations</a></li>
+            <li><a href="#">Businesses</a></li>
+            <li><a href="#">Migration</a></li>
+          </ul>
+        </div>
+        <div class="links-item">
+          <div class="links-item-head">Help</div>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Support Desk</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="social-links">
+      <div class="social-links-head">Contact with Us</div>
+      <ul>
+        <li><a href="#"><img src="img/twit-icon.png" alt="Twitter" /></a></li>
+        <li><a href="#"><img src="img/fb-icon.png" alt="Facebook" /></a></li>
+        <li><a href="#"><img src="img/insta-icon.png" alt="Instagram" /></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- Footer Ends -->
+  <script src="js/main.js"></script>
+</body>
+</html>
+

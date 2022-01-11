@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Dashboard</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <!-- font awesome -->
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <!-- main css -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/dashboard.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<header class="header-sm">
+    <div class="container">
+      <div class="row">
+        <div class="brand-name">
+          <a href="index.html" class="logo">
+            <img src="img/logo-1.png" alt="Logo" />
+          </a>
+        </div>
+        <div class="ham-burger">
+          <i class="fa fa-bars" style="background-color: #303030;"></i>
+        </div>
+        <div class="navbar">
+          <ul>
+            <li><a href="#"><i class="fa fa-user"></i> My Profile</a></li>
+            <li><a href="#"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+            <li><a href="#"><i class="fa fa-globe"></i> My Websites</a></li>
+            <li><a href="#"><i class="fa fa-money"></i> My Payments</a></li>
+            <li><a href="#"><i class="fa fa-file"></i> Merchant Page</a></li>
+            <li><a href="#"><i class="fa fa-star"></i> My Reviews</a></li>
+            <li><a href="#"><i class="fa fa-code"></i> API Integrations</a></li>
+            <li><a href="#"><i class="fa fa-arrow-down"></i> My Downloads</a></li>
+            <li><a href="#"><i></i> Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+</header>
+<div class="sidebar-content">
+  <div class="sidebar">
+    <div class="logo">
+      <img src="img/logo-1.png" alt="Logo" />
+    </div>
+    <div class="sidebar-links">
+      <ul>
+        <li><a href="#"><i class="fa fa-user"></i> My Profile</a></li>
+        <li><a href="#"><i class="fa fa-dashboard"></i> Dashboard</a></li>
+        <li><a href="#"><i class="fa fa-globe"></i> My Websites</a></li>
+        <li><a href="#"><i class="fa fa-money"></i> My Payments</a></li>
+        <li><a href="#"><i class="fa fa-file"></i> Merchant Page</a></li>
+        <li><a href="#"><i class="fa fa-star"></i> My Reviews</a></li>
+        <li><a href="#"><i class="fa fa-code"></i> API Integrations</a></li>
+        <li><a href="#"><i class="fa fa-arrow-down"></i> My Downloads</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="main-content">
+    <!-- Header Starts -->
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="brand-name">
+            <a href="index.html" class="logo">
+              Dashboard
+            </a>
+          </div>
+          <div class="navbar">
+            <ul>
+              <li><a href="#" class="active">My Dashboard</a></li>
+              <li><a href="#">Logout</a></li>
+              <li><a href="#"><span class="merchant-btn">Merchant</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header ends -->
+
+    <!-- Name Search Starts -->
+    <div class="name-search">
+      <div class="admin-name">
+        <h1>Hello Amit Chaudhary <span>Professional</span></h1>
+      </div>
+      <div class="search">
+        <form class="search-form" action="#" method="POST">
+          <input type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+    <!-- Name search ends -->
+
+    <!-- Ratings by company starts -->
+    <div class="ratings">
+      <div class="rating-items">
+        <div class="rating-item">
+          <div class="rating-stars">
+            <img src="img/trending-up.png" alt="Trending Up" /><br /> 
+            <span class="up-text">5 Stars</span>
+          </div>
+          <div class="rating-img-text">
+            <div class="rating-item-img">
+              <img src="img/window.png" alt="Microsoft" />
+            </div>
+            <div class="rating-item-text">
+              <h3>Microsoft Inc.</h3>
+              <img src="img/rating-stars.png" alt="Ratings" />
+            </div>
+          </div>
+          <div class="rating-bar-item">
+            <p>4 from 5 Star Reviews</p>
+            <div class="progress inner-shadow">
+              <div class="progress-bar green" style="width: calc(70% - 14px)">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rating-item">
+          <div class="rating-stars">
+            <img src="img/trending-up.png" alt="Trending Up" /><br /> 
+            <span class="up-text">4 Stars</span>
+          </div>
+          <div class="rating-img-text">
+            <div class="rating-item-img">
+              <img src="img/xbox.png" alt="Xbox" />
+            </div>
+            <div class="rating-item-text">
+              <h3>Xbox Game Studios</h3>
+              <img src="img/good-review.png" alt="Ratings" />
+            </div>
+          </div>
+          <div class="rating-bar-item">
+            <p>4 from 5 Star Reviews</p>
+            <div class="progress inner-shadow">
+              <div class="progress-bar parrot" style="width: calc(70% - 14px)">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rating-item">
+          <div class="rating-stars">
+            <img src="img/trending-down.png" alt="Trending Up" /><br /> 
+            <span class="down-text">1 Star</span>
+          </div>
+          <div class="rating-img-text">
+            <div class="rating-item-img" style="margin-top: -10px">
+              <img src="img/linkedin.png" alt="LinkedIn" />
+            </div>
+            <div class="rating-item-text">
+              <h3>LinkedIn</h3>
+              <img src="img/bad-review-2.png" alt="Ratings" />
+            </div>
+          </div>
+          <div class="rating-bar-item">
+            <p>4 from 5 Star Reviews</p>
+            <div class="progress inner-shadow">
+              <div class="progress-bar orange" style="width: calc(70% - 14px)">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Ratings by company ends -->
+
+    <!-- Overall Stats Starts -->
+    <div class="overall-stats-chart">
+      <div class="overall-review-stats">
+        <div class="overall-review-stats-head">
+          Overall Review Stats
+        </div>
+        <div class="overall-review-stats-item">
+          <div class="percentage">38.9%</div>
+          <div class="overall-review-stats-rating-bar">
+            <p>25 Reviews</p>
+            <div class="progress inner-shadow">
+              <div class="progress-bar green" style="width: calc(60% - 14px)">
+
+              </div>
+            </div>
+            <span><img src="img/rating-stars.png" alt="Ratings" /></span>
+          </div>
+        </div>
+        <div class="overall-review-stats-item">
+          <div class="percentage">38.9%</div>
+          <div class="overall-review-stats-rating-bar">
+            <p>25 Reviews</p>
+            <div class="progress inner-shadow">
+              <div class="progress-bar green" style="width: calc(40% - 14px)">
+
+              </div>
+            </div>
+            <span><img src="img/rating-stars.png" alt="Ratings" /></span>
+          </div>
+        </div>
+        <div class="overall-review-stats-item">
+          <div class="percentage">38.9%</div>
+          <div class="overall-review-stats-rating-bar">
+            <p>25 Reviews</p>
+            <div class="progress inner-shadow">
+              <div class="progress-bar parrot" style="width: calc(40% - 14px)">
+
+              </div>
+            </div>
+            <span><img src="img/good-review.png" alt="Ratings" /></span>
+          </div>
+        </div>
+        <div class="overall-review-stats-item">
+          <div class="percentage">38.9%</div>
+          <div class="overall-review-stats-rating-bar">
+            <p>25 Reviews</p>
+            <div class="progress inner-shadow">
+              <div class="progress-bar parrot" style="width: calc(35% - 14px)">
+
+              </div>
+            </div>
+            <span><img src="img/good-review.png" alt="Ratings" /></span>
+          </div>
+        </div>
+        <div class="overall-review-stats-item">
+          <div class="percentage">38.9%</div>
+          <div class="overall-review-stats-rating-bar">
+            <p>25 Reviews</p>
+            <div class="progress inner-shadow">
+              <div class="progress-bar parrot" style="width: calc(20% - 14px)">
+
+              </div>
+            </div>
+            <span><img src="img/bad-review-2.png" alt="Ratings" /></span>
+          </div>
+        </div>
+        <div class="overall-review-stats-item">
+          <div class="percentage">38.9%</div>
+          <div class="overall-review-stats-rating-bar">
+            <p>25 Reviews</p>
+            <div class="progress inner-shadow">
+              <div class="progress-bar parrot" style="width: calc(25% - 14px)">
+
+              </div>
+            </div>
+            <span><img src="img/bad-review-2.png" alt="Ratings" /></span>
+          </div>
+        </div>
+        <div class="overall-review-stats-item">
+          <div class="percentage">38.9%</div>
+          <div class="overall-review-stats-rating-bar">
+            <p>25 Reviews</p>
+            <div class="progress inner-shadow">
+              <div class="progress-bar parrot" style="width: calc(20% - 14px)">
+
+              </div>
+            </div>
+            <span><img src="img/bad-review-3.png" alt="Ratings" /></span>
+          </div>
+        </div>
+        <div class="overall-review-stats-item">
+          <div class="percentage">38.9%</div>
+          <div class="overall-review-stats-rating-bar">
+            <p>25 Reviews</p>
+            <div class="progress inner-shadow">
+              <div class="progress-bar parrot" style="width: calc(10% - 14px)">
+
+              </div>
+            </div>
+            <span><img src="img/bad-review.png" alt="Ratings" /></span>
+          </div>
+        </div>
+      </div>
+      <div class="review-chart">
+        <canvas id="myChart" style="width:100%;margin-bottom: 20px;background-color: white;padding: 10px 20px;border-radius: 10px;"></canvas>
+        <div class="segmentation">
+          <div class="segmentation-head">Segmentation</div>
+          <div class="segmentation-items">
+            <div class="segmentation-item">
+              <div class="segmentation-item-head">
+                <img src="img/pc.png" alt="Email" />
+                <span>Email Sent</span>
+              </div>
+              <div class="segmentation-item-counter">
+                0
+              </div>
+            </div>
+            <div class="segmentation-item">
+              <div class="segmentation-item-head">
+                <img src="img/star.png" alt="Email" />
+                <span>Review Received</span>
+              </div>
+              <div class="segmentation-item-counter">
+                0
+              </div>
+            </div>
+            <div class="segmentation-item">
+              <div class="segmentation-item-head">
+                <img src="img/share-2.png" alt="Email" />
+                <span>Received vs Sent</span>
+              </div>
+              <div class="segmentation-item-counter">
+                0
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Overall Stats Ends -->
+
+    <!-- Analytics Starts -->
+    <div class="analytics">
+      <div class="analytics-cont">
+        <div class="analytics-head">
+          <div class="logo">
+            <img src="img/google-2.png" alt="Google" />
+          </div>
+          <div class="filters">
+            <ul>
+              <li><a href="#" class="active">All Time</a></li>
+              <li><a href="#">Today</a></li>
+              <li><a href="#">Last 7 Days</a></li>
+              <li><a href="#">Last 1 Month</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="analytics-items">
+          <div class="analytics-item">
+            <div class="analytics-item-img">
+              <img src="img/trending-up-2.png" alt="Trending Up" />
+            </div>
+            <div class="analytics-item-text">
+              <div class="amount">230K</div>
+              <div class="type">Reach</div>
+              <div class="percentage">%45.03</div>
+            </div>
+          </div>
+          <div class="analytics-item">
+            <div class="analytics-item-img">
+              <img src="img/person-2.png" alt="Fans" />
+            </div>
+            <div class="analytics-item-text">
+              <div class="amount">8.549K</div>
+              <div class="type">Fans</div>
+              <div class="percentage">%45.03</div>
+            </div>
+          </div>
+          <div class="analytics-item">
+            <div class="analytics-item-img">
+              <img src="img/finger.png" alt="Clicks" />
+            </div>
+            <div class="analytics-item-text">
+              <div class="amount">1.423K</div>
+              <div class="type">Clicks</div>
+              <div class="percentage">%20.01</div>
+            </div>
+          </div>
+          <div class="analytics-item">
+            <div class="analytics-item-img">
+              <img src="img/thumb.png" alt="Likes" />
+            </div>
+            <div class="analytics-item-text">
+              <div class="amount">290745K</div>
+              <div class="type">Likes</div>
+              <div class="percentage">%20.01</div>
+            </div>
+          </div>
+          <div class="analytics-item">
+            <div class="analytics-item-img">
+              <img src="img/share-3.png" alt="Shares" />
+            </div>
+            <div class="analytics-item-text">
+              <div class="amount">19745K</div>
+              <div class="type">Share</div>
+              <div class="percentage">%20.01</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Analytics Ends -->
+
+    <!-- Demo graphy Starts -->
+    <div class="demo-graphy">
+      <div class="demo-graphy-cont">
+        <div class="demo-graphy-head">Demography</div>
+        <div class="demo-graphy-map">
+          <div class="demo-graphy-items">
+            <div class="demo-graphy-item">
+              <div class="demo-graphy-item-rating-bar">
+                <p>Europe</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(50% - 14px)">
+                  </div>
+                  <span>580 Users</span>
+                </div>
+              </div>
+            </div>
+            <div class="demo-graphy-item">
+              <div class="demo-graphy-item-rating-bar">
+                <p>Asia</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(20% - 14px)">
+                  </div>
+                  <span>103 Users</span>
+                </div>
+              </div>
+            </div>
+            <div class="demo-graphy-item">
+              <div class="demo-graphy-item-rating-bar">
+                <p>Africa</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(30% - 14px)">
+                  </div>
+                  <span>239 Users</span>
+                </div>
+              </div>
+            </div>
+            <div class="demo-graphy-item">
+              <div class="demo-graphy-item-rating-bar">
+                <p>Australia</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(15% - 14px)">
+                  </div>
+                  <span>78 Users</span>
+                </div>
+              </div>
+            </div>
+            <div class="demo-graphy-item">
+              <div class="demo-graphy-item-rating-bar">
+                <p>Amreica</p>
+                <div class="progress inner-shadow">
+                  <div class="progress-bar" style="width: calc(40% - 14px)">
+                  </div>
+                  <span>78 Users</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="map">
+            <img src="img/map.png" alt="Map" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Demo graphy ends -->
+
+    <!-- Recent Reviews Starts -->
+    <div class="recent-reviews-2">
+      <div class="recent-reviews-2-cont">
+        <div class="recent-reviews-2-head">Most Recent Reviews</div>
+        <div class="recent-reviews-2-items">
+          <p class="title">No Review Found</p>
+          <p><a href="#">View All Reviews</a></p>
+        </div>
+      </div>
+    </div>
+    <!-- Recent Reviews ends -->
+    
+    <!-- Pending Request Starts -->
+    <div class="pending-request">
+      <div class="pending-request-items">
+        <div class="pending-request-item">
+          <div class="pending-request-item-head">Pending Review Request</div>
+          <div class="pending-request-item-body">
+            <p class="title">No Pending Request Found!</p>
+            <p><a href="#">View All Requests</a></p>
+          </div>
+        </div>
+        <div class="pending-request-item">
+          <div class="pending-request-item-head">Top Customers By Reviews</div>
+          <div class="pending-request-item-body">
+            <p class="title">No Pending Request Found!</p>
+            <p><a href="#">View All Reviews</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pending Request Ends -->
+  </div>
+</div>
+
+
+<!-- Footer Starts -->
+<section class="footer">
+  <div class="footer-items">
+    <div class="about-review-extra">
+      <div class="logo">
+        <img src="img/logo-1.png" alt="Logo" />
+      </div>
+      <div class="rated-head">See how we are Rated</div>
+      <div class="website">
+        <p>Reviewxtra. <a href="#">http://reviewxtra.com.ng/</a></p>
+      </div>
+      <div class="ratings">
+        <img src="img/rating-stars.png" alt="Ratings" /><span>4.9/5</span>
+      </div>
+      <div class="based-on">Based on 18 ReviewXtra reviews</div>
+      <div class="powered-by">
+        Powered by: <span>Review</span><span class="white-text">Xtra</span>
+      </div>
+    </div>
+    <div class="links">
+      <div class="links-items">
+        <div class="links-item">
+          <div class="links-item-head">ReviewXtra</div>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Plans</a></li>
+          </ul>
+        </div>
+        <div class="links-item">
+          <div class="links-item-head">Resources</div>
+          <ul>
+            <li><a href="#">Integrations</a></li>
+            <li><a href="#">Businesses</a></li>
+            <li><a href="#">Migration</a></li>
+          </ul>
+        </div>
+        <div class="links-item">
+          <div class="links-item-head">Help</div>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Support Desk</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="social-links">
+      <div class="social-links-head">Contact with Us</div>
+      <ul>
+        <li><a href="#"><img src="img/twit-icon.png" alt="Twitter" /></a></li>
+        <li><a href="#"><img src="img/fb-icon.png" alt="Facebook" /></a></li>
+        <li><a href="#"><img src="img/insta-icon.png" alt="Instagram" /></a></li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- Footer Ends -->
+  <script src="js/main.js"></script>
+
+  <script>
+    var xValues = ["Dec", "Jan", "Feb", "Mar", "May", "Jun"];
+
+    new Chart("myChart", {
+      type: "line",
+      labels: ["Email Sent", "Reviews Added"],
+      data: {
+        labels: xValues,
+        datasets: [{ 
+          data: [1600,1700,1700,1900,2000,2700,4000,5000,6000,7000],
+          borderColor: "#7BB31A",
+          fill: false
+        }, { 
+          data: [300,700,2000,5000,6000,4000,2000,1000,200,100],
+          borderColor: "#FF6600",
+          fill: false
+        }]
+      },
+      options: {
+        legend: {display: false}
+      }
+    });
+  </script>
+</body>
+</html>
+
